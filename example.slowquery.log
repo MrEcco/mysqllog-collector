@@ -1,0 +1,2702 @@
+/opt/bitnami/mariadb/sbin/mysqld, Version: 10.4.13-MariaDB-log (Source distribution). started with:
+Tcp port: 3306  Unix socket: /opt/bitnami/mariadb/tmp/mysql.sock
+Time		    Id Command	Argument
+# Time: 200827 10:05:50
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 18  Schema: mysql  QC_hit: No
+# Query_time: 0.000158  Lock_time: 0.000082  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+use mysql;
+SET timestamp=1598522750;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 18  Schema: mysql  QC_hit: No
+# Query_time: 0.000063  Lock_time: 0.000034  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598522750;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:06:00
+# User@Host: develop_project[develop_project] @  [172.25.113.152]
+# Thread_id: 20  Schema: develop_project  QC_hit: No
+# Query_time: 0.004745  Lock_time: 0.004529  Rows_sent: 0  Rows_examined: 0
+# Rows_affected: 0  Bytes_sent: 111
+use develop_project;
+SET timestamp=1598522760;
+select `tag` from `telescope_monitoring`;
+# Time: 200827 10:06:05
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 21  Schema: mysql  QC_hit: No
+# Query_time: 0.000155  Lock_time: 0.000080  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+use mysql;
+SET timestamp=1598522765;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 21  Schema: mysql  QC_hit: No
+# Query_time: 0.000096  Lock_time: 0.000041  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598522765;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:06:20
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 24  Schema: mysql  QC_hit: No
+# Query_time: 0.000649  Lock_time: 0.000338  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598522780;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 24  Schema: mysql  QC_hit: No
+# Query_time: 0.000277  Lock_time: 0.000142  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598522780;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:06:35
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 26  Schema: mysql  QC_hit: No
+# Query_time: 0.000190  Lock_time: 0.000094  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598522795;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 26  Schema: mysql  QC_hit: No
+# Query_time: 0.000113  Lock_time: 0.000075  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598522795;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:06:50
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 29  Schema: mysql  QC_hit: No
+# Query_time: 0.000612  Lock_time: 0.000540  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598522810;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 29  Schema: mysql  QC_hit: No
+# Query_time: 0.000104  Lock_time: 0.000052  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598522810;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:07:05
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 32  Schema: mysql  QC_hit: No
+# Query_time: 0.000187  Lock_time: 0.000106  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598522825;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 32  Schema: mysql  QC_hit: No
+# Query_time: 0.000196  Lock_time: 0.000107  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598522825;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:07:20
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 36  Schema: mysql  QC_hit: No
+# Query_time: 0.000171  Lock_time: 0.000095  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598522840;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 36  Schema: mysql  QC_hit: No
+# Query_time: 0.000223  Lock_time: 0.000045  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598522840;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:07:35
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 39  Schema: mysql  QC_hit: No
+# Query_time: 0.000131  Lock_time: 0.000073  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598522855;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 39  Schema: mysql  QC_hit: No
+# Query_time: 0.000125  Lock_time: 0.000057  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598522855;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:07:50
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 44  Schema: mysql  QC_hit: No
+# Query_time: 0.000168  Lock_time: 0.000096  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598522870;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 44  Schema: mysql  QC_hit: No
+# Query_time: 0.000115  Lock_time: 0.000056  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598522870;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:08:05
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 48  Schema: mysql  QC_hit: No
+# Query_time: 0.000161  Lock_time: 0.000091  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598522885;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 48  Schema: mysql  QC_hit: No
+# Query_time: 0.000079  Lock_time: 0.000035  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598522885;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:08:20
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 53  Schema: mysql  QC_hit: No
+# Query_time: 0.000181  Lock_time: 0.000088  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598522900;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 53  Schema: mysql  QC_hit: No
+# Query_time: 0.000273  Lock_time: 0.000164  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598522900;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:08:35
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 56  Schema: mysql  QC_hit: No
+# Query_time: 0.000185  Lock_time: 0.000106  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598522915;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 56  Schema: mysql  QC_hit: No
+# Query_time: 0.000079  Lock_time: 0.000035  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598522915;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:08:50
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 61  Schema: mysql  QC_hit: No
+# Query_time: 0.000237  Lock_time: 0.000125  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598522930;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 61  Schema: mysql  QC_hit: No
+# Query_time: 0.000190  Lock_time: 0.000074  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598522930;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:09:00
+# User@Host: project[project] @  [172.25.113.178]
+# Thread_id: 65  Schema: project  QC_hit: No
+# Query_time: 0.000240  Lock_time: 0.000069  Rows_sent: 0  Rows_examined: 0
+# Rows_affected: 0  Bytes_sent: 103
+use project;
+SET timestamp=1598522940;
+select `tag` from `telescope_monitoring`;
+# Time: 200827 10:09:05
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 66  Schema: mysql  QC_hit: No
+# Query_time: 0.000209  Lock_time: 0.000115  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+use mysql;
+SET timestamp=1598522945;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:09:06
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 66  Schema: mysql  QC_hit: No
+# Query_time: 0.000140  Lock_time: 0.000085  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598522946;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:09:20
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 71  Schema: mysql  QC_hit: No
+# Query_time: 0.000173  Lock_time: 0.000095  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598522960;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 71  Schema: mysql  QC_hit: No
+# Query_time: 0.000135  Lock_time: 0.000070  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598522960;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:09:35
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 74  Schema: mysql  QC_hit: No
+# Query_time: 0.000162  Lock_time: 0.000080  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598522975;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 74  Schema: mysql  QC_hit: No
+# Query_time: 0.000150  Lock_time: 0.000078  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598522975;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:09:50
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 79  Schema: mysql  QC_hit: No
+# Query_time: 0.000144  Lock_time: 0.000068  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598522990;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 79  Schema: mysql  QC_hit: No
+# Query_time: 0.000253  Lock_time: 0.000128  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598522990;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:10:00
+# User@Host: review_project[review_project] @  [172.25.113.135]
+# Thread_id: 83  Schema: review_project  QC_hit: No
+# Query_time: 0.000236  Lock_time: 0.000083  Rows_sent: 0  Rows_examined: 0
+# Rows_affected: 0  Bytes_sent: 110
+use review_project;
+SET timestamp=1598523000;
+select `tag` from `telescope_monitoring`;
+# Time: 200827 10:10:05
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 84  Schema: mysql  QC_hit: No
+# Query_time: 0.000172  Lock_time: 0.000076  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+use mysql;
+SET timestamp=1598523005;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 84  Schema: mysql  QC_hit: No
+# Query_time: 0.000127  Lock_time: 0.000071  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523005;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:10:21
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 89  Schema: mysql  QC_hit: No
+# Query_time: 0.000511  Lock_time: 0.000250  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523021;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 89  Schema: mysql  QC_hit: No
+# Query_time: 0.000209  Lock_time: 0.000091  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523021;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:10:35
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 92  Schema: mysql  QC_hit: No
+# Query_time: 0.000189  Lock_time: 0.000087  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523035;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 92  Schema: mysql  QC_hit: No
+# Query_time: 0.000082  Lock_time: 0.000047  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523035;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:10:50
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 97  Schema: mysql  QC_hit: No
+# Query_time: 0.000281  Lock_time: 0.000157  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523050;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 97  Schema: mysql  QC_hit: No
+# Query_time: 0.000261  Lock_time: 0.000147  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523050;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:11:05
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 101  Schema: mysql  QC_hit: No
+# Query_time: 0.000144  Lock_time: 0.000074  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523065;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 101  Schema: mysql  QC_hit: No
+# Query_time: 0.000119  Lock_time: 0.000042  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523065;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:11:20
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 106  Schema: mysql  QC_hit: No
+# Query_time: 0.000265  Lock_time: 0.000157  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523080;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 106  Schema: mysql  QC_hit: No
+# Query_time: 0.000105  Lock_time: 0.000060  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523080;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:11:35
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 109  Schema: mysql  QC_hit: No
+# Query_time: 0.000230  Lock_time: 0.000097  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523095;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 109  Schema: mysql  QC_hit: No
+# Query_time: 0.000142  Lock_time: 0.000082  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523095;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:11:50
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 114  Schema: mysql  QC_hit: No
+# Query_time: 0.000214  Lock_time: 0.000081  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523110;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 114  Schema: mysql  QC_hit: No
+# Query_time: 0.000103  Lock_time: 0.000063  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523110;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:12:05
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 117  Schema: mysql  QC_hit: No
+# Query_time: 0.000184  Lock_time: 0.000090  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523125;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 117  Schema: mysql  QC_hit: No
+# Query_time: 0.000209  Lock_time: 0.000106  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523125;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:12:20
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 122  Schema: mysql  QC_hit: No
+# Query_time: 0.000159  Lock_time: 0.000093  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523140;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 122  Schema: mysql  QC_hit: No
+# Query_time: 0.000086  Lock_time: 0.000038  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523140;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:12:35
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 125  Schema: mysql  QC_hit: No
+# Query_time: 0.000168  Lock_time: 0.000094  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523155;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 125  Schema: mysql  QC_hit: No
+# Query_time: 0.000186  Lock_time: 0.000087  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523155;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:12:50
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 130  Schema: mysql  QC_hit: No
+# Query_time: 0.000246  Lock_time: 0.000121  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523170;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 130  Schema: mysql  QC_hit: No
+# Query_time: 0.000242  Lock_time: 0.000139  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523170;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:13:05
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 135  Schema: mysql  QC_hit: No
+# Query_time: 0.000206  Lock_time: 0.000100  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523185;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 135  Schema: mysql  QC_hit: No
+# Query_time: 0.000079  Lock_time: 0.000045  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523185;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:13:20
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 140  Schema: mysql  QC_hit: No
+# Query_time: 0.000225  Lock_time: 0.000135  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523200;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 140  Schema: mysql  QC_hit: No
+# Query_time: 0.000221  Lock_time: 0.000140  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523200;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:13:35
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 143  Schema: mysql  QC_hit: No
+# Query_time: 0.000197  Lock_time: 0.000105  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523215;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 143  Schema: mysql  QC_hit: No
+# Query_time: 0.000120  Lock_time: 0.000080  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523215;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:13:50
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 148  Schema: mysql  QC_hit: No
+# Query_time: 0.000115  Lock_time: 0.000068  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523230;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 148  Schema: mysql  QC_hit: No
+# Query_time: 0.000106  Lock_time: 0.000052  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523230;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:14:05
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 151  Schema: mysql  QC_hit: No
+# Query_time: 0.000343  Lock_time: 0.000208  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523245;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 151  Schema: mysql  QC_hit: No
+# Query_time: 0.000373  Lock_time: 0.000129  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523245;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:14:20
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 156  Schema: mysql  QC_hit: No
+# Query_time: 0.000227  Lock_time: 0.000129  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523260;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 156  Schema: mysql  QC_hit: No
+# Query_time: 0.000331  Lock_time: 0.000189  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523260;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:14:35
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 159  Schema: mysql  QC_hit: No
+# Query_time: 0.000410  Lock_time: 0.000219  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523275;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 159  Schema: mysql  QC_hit: No
+# Query_time: 0.000305  Lock_time: 0.000132  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523275;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:14:50
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 164  Schema: mysql  QC_hit: No
+# Query_time: 0.000173  Lock_time: 0.000093  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523290;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 164  Schema: mysql  QC_hit: No
+# Query_time: 0.000080  Lock_time: 0.000044  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523290;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:15:05
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 168  Schema: mysql  QC_hit: No
+# Query_time: 0.000362  Lock_time: 0.000193  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523305;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 168  Schema: mysql  QC_hit: No
+# Query_time: 0.000205  Lock_time: 0.000089  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523305;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:15:20
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 173  Schema: mysql  QC_hit: No
+# Query_time: 0.000147  Lock_time: 0.000062  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523320;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 173  Schema: mysql  QC_hit: No
+# Query_time: 0.000090  Lock_time: 0.000051  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523320;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:15:35
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 176  Schema: mysql  QC_hit: No
+# Query_time: 0.000514  Lock_time: 0.000280  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523335;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 176  Schema: mysql  QC_hit: No
+# Query_time: 0.000331  Lock_time: 0.000179  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523335;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:15:50
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 181  Schema: mysql  QC_hit: No
+# Query_time: 0.000153  Lock_time: 0.000083  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523350;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 181  Schema: mysql  QC_hit: No
+# Query_time: 0.000190  Lock_time: 0.000100  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523350;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:16:05
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 186  Schema: mysql  QC_hit: No
+# Query_time: 0.000248  Lock_time: 0.000132  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523365;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 186  Schema: mysql  QC_hit: No
+# Query_time: 0.000086  Lock_time: 0.000048  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523365;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:16:20
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 191  Schema: mysql  QC_hit: No
+# Query_time: 0.000235  Lock_time: 0.000107  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523380;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 191  Schema: mysql  QC_hit: No
+# Query_time: 0.000184  Lock_time: 0.000097  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523380;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:16:35
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 194  Schema: mysql  QC_hit: No
+# Query_time: 0.000208  Lock_time: 0.000121  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523395;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 194  Schema: mysql  QC_hit: No
+# Query_time: 0.000095  Lock_time: 0.000045  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523395;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:16:50
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 199  Schema: mysql  QC_hit: No
+# Query_time: 0.000231  Lock_time: 0.000129  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523410;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 199  Schema: mysql  QC_hit: No
+# Query_time: 0.000149  Lock_time: 0.000081  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523410;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:17:05
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 202  Schema: mysql  QC_hit: No
+# Query_time: 0.000217  Lock_time: 0.000108  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523425;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 202  Schema: mysql  QC_hit: No
+# Query_time: 0.000115  Lock_time: 0.000055  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523425;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:17:20
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 207  Schema: mysql  QC_hit: No
+# Query_time: 0.000182  Lock_time: 0.000086  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523440;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 207  Schema: mysql  QC_hit: No
+# Query_time: 0.000114  Lock_time: 0.000064  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523440;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:17:35
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 210  Schema: mysql  QC_hit: No
+# Query_time: 0.000334  Lock_time: 0.000168  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523455;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 210  Schema: mysql  QC_hit: No
+# Query_time: 0.000189  Lock_time: 0.000095  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523455;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:17:50
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 215  Schema: mysql  QC_hit: No
+# Query_time: 0.000268  Lock_time: 0.000157  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523470;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 215  Schema: mysql  QC_hit: No
+# Query_time: 0.000267  Lock_time: 0.000153  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523470;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:18:05
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 218  Schema: mysql  QC_hit: No
+# Query_time: 0.000242  Lock_time: 0.000120  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523485;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 218  Schema: mysql  QC_hit: No
+# Query_time: 0.000112  Lock_time: 0.000058  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523485;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:18:20
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 223  Schema: mysql  QC_hit: No
+# Query_time: 0.000162  Lock_time: 0.000074  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523500;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 223  Schema: mysql  QC_hit: No
+# Query_time: 0.000085  Lock_time: 0.000040  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523500;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:18:35
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 226  Schema: mysql  QC_hit: No
+# Query_time: 0.000188  Lock_time: 0.000100  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523515;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 226  Schema: mysql  QC_hit: No
+# Query_time: 0.000135  Lock_time: 0.000062  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523515;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:18:50
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 231  Schema: mysql  QC_hit: No
+# Query_time: 0.000329  Lock_time: 0.000165  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523530;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 231  Schema: mysql  QC_hit: No
+# Query_time: 0.000284  Lock_time: 0.000161  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523530;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:19:05
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 235  Schema: mysql  QC_hit: No
+# Query_time: 0.000311  Lock_time: 0.000168  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523545;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 235  Schema: mysql  QC_hit: No
+# Query_time: 0.000247  Lock_time: 0.000125  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523545;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:19:20
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 240  Schema: mysql  QC_hit: No
+# Query_time: 0.000270  Lock_time: 0.000150  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523560;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 240  Schema: mysql  QC_hit: No
+# Query_time: 0.000311  Lock_time: 0.000148  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523560;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:19:35
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 243  Schema: mysql  QC_hit: No
+# Query_time: 0.000191  Lock_time: 0.000092  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523575;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 243  Schema: mysql  QC_hit: No
+# Query_time: 0.000162  Lock_time: 0.000092  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523575;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:19:50
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 248  Schema: mysql  QC_hit: No
+# Query_time: 0.000215  Lock_time: 0.000108  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523590;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 248  Schema: mysql  QC_hit: No
+# Query_time: 0.000184  Lock_time: 0.000078  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523590;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:20:05
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 252  Schema: mysql  QC_hit: No
+# Query_time: 0.000332  Lock_time: 0.000106  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523605;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 252  Schema: mysql  QC_hit: No
+# Query_time: 0.000361  Lock_time: 0.000232  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523605;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:20:20
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 257  Schema: mysql  QC_hit: No
+# Query_time: 0.000278  Lock_time: 0.000142  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523620;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 257  Schema: mysql  QC_hit: No
+# Query_time: 0.000117  Lock_time: 0.000074  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523620;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:20:35
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 260  Schema: mysql  QC_hit: No
+# Query_time: 0.000167  Lock_time: 0.000093  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523635;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 260  Schema: mysql  QC_hit: No
+# Query_time: 0.000119  Lock_time: 0.000070  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523635;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:20:50
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 265  Schema: mysql  QC_hit: No
+# Query_time: 0.000150  Lock_time: 0.000090  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523650;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 265  Schema: mysql  QC_hit: No
+# Query_time: 0.000098  Lock_time: 0.000039  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523650;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:21:05
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 269  Schema: mysql  QC_hit: No
+# Query_time: 0.000130  Lock_time: 0.000069  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523665;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 269  Schema: mysql  QC_hit: No
+# Query_time: 0.000079  Lock_time: 0.000032  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523665;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:21:20
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 274  Schema: mysql  QC_hit: No
+# Query_time: 0.000471  Lock_time: 0.000273  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523680;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 274  Schema: mysql  QC_hit: No
+# Query_time: 0.000180  Lock_time: 0.000114  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523680;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:21:35
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 277  Schema: mysql  QC_hit: No
+# Query_time: 0.000237  Lock_time: 0.000142  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523695;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 277  Schema: mysql  QC_hit: No
+# Query_time: 0.000154  Lock_time: 0.000067  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523695;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:21:50
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 282  Schema: mysql  QC_hit: No
+# Query_time: 0.000265  Lock_time: 0.000142  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523710;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 282  Schema: mysql  QC_hit: No
+# Query_time: 0.000103  Lock_time: 0.000060  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523710;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:22:05
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 287  Schema: mysql  QC_hit: No
+# Query_time: 0.000202  Lock_time: 0.000085  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523725;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 287  Schema: mysql  QC_hit: No
+# Query_time: 0.000252  Lock_time: 0.000142  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523725;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:22:20
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 292  Schema: mysql  QC_hit: No
+# Query_time: 0.000220  Lock_time: 0.000146  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523740;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 292  Schema: mysql  QC_hit: No
+# Query_time: 0.000093  Lock_time: 0.000043  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523740;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:22:35
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 295  Schema: mysql  QC_hit: No
+# Query_time: 0.000195  Lock_time: 0.000081  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523755;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 295  Schema: mysql  QC_hit: No
+# Query_time: 0.000241  Lock_time: 0.000138  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523755;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:22:50
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 300  Schema: mysql  QC_hit: No
+# Query_time: 0.000156  Lock_time: 0.000086  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523770;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 300  Schema: mysql  QC_hit: No
+# Query_time: 0.000143  Lock_time: 0.000060  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523770;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:23:05
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 305  Schema: mysql  QC_hit: No
+# Query_time: 0.000215  Lock_time: 0.000125  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523785;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 305  Schema: mysql  QC_hit: No
+# Query_time: 0.000103  Lock_time: 0.000040  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523785;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:23:20
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 310  Schema: mysql  QC_hit: No
+# Query_time: 0.000232  Lock_time: 0.000127  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523800;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 310  Schema: mysql  QC_hit: No
+# Query_time: 0.000122  Lock_time: 0.000083  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523800;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:23:35
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 313  Schema: mysql  QC_hit: No
+# Query_time: 0.000133  Lock_time: 0.000070  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523815;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 313  Schema: mysql  QC_hit: No
+# Query_time: 0.000130  Lock_time: 0.000069  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523815;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:23:50
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 318  Schema: mysql  QC_hit: No
+# Query_time: 0.000262  Lock_time: 0.000134  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523830;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 318  Schema: mysql  QC_hit: No
+# Query_time: 0.000124  Lock_time: 0.000066  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523830;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:24:05
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 322  Schema: mysql  QC_hit: No
+# Query_time: 0.000250  Lock_time: 0.000146  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523845;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 322  Schema: mysql  QC_hit: No
+# Query_time: 0.000082  Lock_time: 0.000047  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523845;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:24:20
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 327  Schema: mysql  QC_hit: No
+# Query_time: 0.000170  Lock_time: 0.000076  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523860;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 327  Schema: mysql  QC_hit: No
+# Query_time: 0.000171  Lock_time: 0.000087  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523860;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:24:35
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 330  Schema: mysql  QC_hit: No
+# Query_time: 0.000227  Lock_time: 0.000099  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523875;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 330  Schema: mysql  QC_hit: No
+# Query_time: 0.000108  Lock_time: 0.000053  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523875;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:24:50
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 335  Schema: mysql  QC_hit: No
+# Query_time: 0.000129  Lock_time: 0.000063  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523890;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 335  Schema: mysql  QC_hit: No
+# Query_time: 0.000061  Lock_time: 0.000032  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523890;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:25:05
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 340  Schema: mysql  QC_hit: No
+# Query_time: 0.000228  Lock_time: 0.000117  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523905;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 340  Schema: mysql  QC_hit: No
+# Query_time: 0.000097  Lock_time: 0.000053  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523905;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:25:20
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 345  Schema: mysql  QC_hit: No
+# Query_time: 0.000249  Lock_time: 0.000115  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523920;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 345  Schema: mysql  QC_hit: No
+# Query_time: 0.000127  Lock_time: 0.000080  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523920;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:25:35
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 348  Schema: mysql  QC_hit: No
+# Query_time: 0.000155  Lock_time: 0.000090  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523935;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 348  Schema: mysql  QC_hit: No
+# Query_time: 0.000106  Lock_time: 0.000045  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523935;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:25:50
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 353  Schema: mysql  QC_hit: No
+# Query_time: 0.000178  Lock_time: 0.000086  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523950;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 353  Schema: mysql  QC_hit: No
+# Query_time: 0.000141  Lock_time: 0.000047  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523950;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:26:05
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 358  Schema: mysql  QC_hit: No
+# Query_time: 0.000142  Lock_time: 0.000064  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523965;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 358  Schema: mysql  QC_hit: No
+# Query_time: 0.000281  Lock_time: 0.000143  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523965;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:26:20
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 363  Schema: mysql  QC_hit: No
+# Query_time: 0.000139  Lock_time: 0.000062  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523980;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 363  Schema: mysql  QC_hit: No
+# Query_time: 0.000161  Lock_time: 0.000092  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523980;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:26:35
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 366  Schema: mysql  QC_hit: No
+# Query_time: 0.000134  Lock_time: 0.000057  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598523995;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 366  Schema: mysql  QC_hit: No
+# Query_time: 0.000167  Lock_time: 0.000092  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598523995;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:26:50
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 371  Schema: mysql  QC_hit: No
+# Query_time: 0.000236  Lock_time: 0.000135  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524010;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 371  Schema: mysql  QC_hit: No
+# Query_time: 0.000108  Lock_time: 0.000047  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524010;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:27:05
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 374  Schema: mysql  QC_hit: No
+# Query_time: 0.000211  Lock_time: 0.000089  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524025;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 374  Schema: mysql  QC_hit: No
+# Query_time: 0.000107  Lock_time: 0.000061  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524025;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:27:20
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 379  Schema: mysql  QC_hit: No
+# Query_time: 0.000153  Lock_time: 0.000069  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524040;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 379  Schema: mysql  QC_hit: No
+# Query_time: 0.000066  Lock_time: 0.000035  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524040;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:27:35
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 382  Schema: mysql  QC_hit: No
+# Query_time: 0.000283  Lock_time: 0.000111  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524055;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 382  Schema: mysql  QC_hit: No
+# Query_time: 0.000242  Lock_time: 0.000135  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524055;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:27:50
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 387  Schema: mysql  QC_hit: No
+# Query_time: 0.000171  Lock_time: 0.000075  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524070;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 387  Schema: mysql  QC_hit: No
+# Query_time: 0.000187  Lock_time: 0.000099  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524070;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:28:05
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 390  Schema: mysql  QC_hit: No
+# Query_time: 0.000263  Lock_time: 0.000152  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524085;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 390  Schema: mysql  QC_hit: No
+# Query_time: 0.000193  Lock_time: 0.000096  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524085;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:28:20
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 395  Schema: mysql  QC_hit: No
+# Query_time: 0.000177  Lock_time: 0.000091  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524100;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 395  Schema: mysql  QC_hit: No
+# Query_time: 0.000127  Lock_time: 0.000061  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524100;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:28:35
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 398  Schema: mysql  QC_hit: No
+# Query_time: 0.000249  Lock_time: 0.000146  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524115;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 398  Schema: mysql  QC_hit: No
+# Query_time: 0.001105  Lock_time: 0.000117  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524115;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:28:50
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 403  Schema: mysql  QC_hit: No
+# Query_time: 0.000142  Lock_time: 0.000078  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524130;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 403  Schema: mysql  QC_hit: No
+# Query_time: 0.000087  Lock_time: 0.000038  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524130;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:29:05
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 407  Schema: mysql  QC_hit: No
+# Query_time: 0.000227  Lock_time: 0.000126  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524145;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 407  Schema: mysql  QC_hit: No
+# Query_time: 0.000126  Lock_time: 0.000061  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524145;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:29:20
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 412  Schema: mysql  QC_hit: No
+# Query_time: 0.000295  Lock_time: 0.000149  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524160;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 412  Schema: mysql  QC_hit: No
+# Query_time: 0.000159  Lock_time: 0.000059  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524160;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:29:35
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 415  Schema: mysql  QC_hit: No
+# Query_time: 0.000245  Lock_time: 0.000113  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524175;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 415  Schema: mysql  QC_hit: No
+# Query_time: 0.000107  Lock_time: 0.000060  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524175;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:29:50
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 420  Schema: mysql  QC_hit: No
+# Query_time: 0.000294  Lock_time: 0.000134  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524190;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 420  Schema: mysql  QC_hit: No
+# Query_time: 0.000143  Lock_time: 0.000084  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524190;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:30:05
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 423  Schema: mysql  QC_hit: No
+# Query_time: 0.000233  Lock_time: 0.000100  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524205;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 423  Schema: mysql  QC_hit: No
+# Query_time: 0.000101  Lock_time: 0.000056  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524205;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:30:20
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 428  Schema: mysql  QC_hit: No
+# Query_time: 0.000185  Lock_time: 0.000093  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524220;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 428  Schema: mysql  QC_hit: No
+# Query_time: 0.000215  Lock_time: 0.000112  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524220;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:30:35
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 431  Schema: mysql  QC_hit: No
+# Query_time: 0.000212  Lock_time: 0.000119  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524235;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 431  Schema: mysql  QC_hit: No
+# Query_time: 0.000079  Lock_time: 0.000048  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524235;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:30:50
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 436  Schema: mysql  QC_hit: No
+# Query_time: 0.000210  Lock_time: 0.000100  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524250;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 436  Schema: mysql  QC_hit: No
+# Query_time: 0.000282  Lock_time: 0.000150  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524250;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:31:05
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 440  Schema: mysql  QC_hit: No
+# Query_time: 0.000285  Lock_time: 0.000164  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524265;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:31:06
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 440  Schema: mysql  QC_hit: No
+# Query_time: 0.000157  Lock_time: 0.000072  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524266;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:31:20
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 445  Schema: mysql  QC_hit: No
+# Query_time: 0.000260  Lock_time: 0.000136  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524280;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 445  Schema: mysql  QC_hit: No
+# Query_time: 0.000136  Lock_time: 0.000084  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524280;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:31:35
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 448  Schema: mysql  QC_hit: No
+# Query_time: 0.000283  Lock_time: 0.000114  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524295;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 448  Schema: mysql  QC_hit: No
+# Query_time: 0.000265  Lock_time: 0.000164  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524295;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:31:50
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 453  Schema: mysql  QC_hit: No
+# Query_time: 0.000441  Lock_time: 0.000248  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524310;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 453  Schema: mysql  QC_hit: No
+# Query_time: 0.000204  Lock_time: 0.000106  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524310;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:32:05
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 458  Schema: mysql  QC_hit: No
+# Query_time: 0.000228  Lock_time: 0.000117  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524325;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 458  Schema: mysql  QC_hit: No
+# Query_time: 0.000083  Lock_time: 0.000046  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524325;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:32:20
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 463  Schema: mysql  QC_hit: No
+# Query_time: 0.000324  Lock_time: 0.000196  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524340;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 463  Schema: mysql  QC_hit: No
+# Query_time: 0.000162  Lock_time: 0.000088  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524340;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:32:35
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 466  Schema: mysql  QC_hit: No
+# Query_time: 0.000202  Lock_time: 0.000083  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524355;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 466  Schema: mysql  QC_hit: No
+# Query_time: 0.000206  Lock_time: 0.000111  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524355;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:32:50
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 471  Schema: mysql  QC_hit: No
+# Query_time: 0.000369  Lock_time: 0.000214  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524370;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 471  Schema: mysql  QC_hit: No
+# Query_time: 0.000215  Lock_time: 0.000109  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524370;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:33:05
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 475  Schema: mysql  QC_hit: No
+# Query_time: 0.000175  Lock_time: 0.000080  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524385;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 475  Schema: mysql  QC_hit: No
+# Query_time: 0.000277  Lock_time: 0.000142  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524385;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:33:20
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 480  Schema: mysql  QC_hit: No
+# Query_time: 0.000158  Lock_time: 0.000087  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524400;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 480  Schema: mysql  QC_hit: No
+# Query_time: 0.000115  Lock_time: 0.000055  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524400;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:33:35
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 483  Schema: mysql  QC_hit: No
+# Query_time: 0.000219  Lock_time: 0.000126  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524415;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 483  Schema: mysql  QC_hit: No
+# Query_time: 0.000276  Lock_time: 0.000154  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524415;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:33:50
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 488  Schema: mysql  QC_hit: No
+# Query_time: 0.000339  Lock_time: 0.000158  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524430;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 488  Schema: mysql  QC_hit: No
+# Query_time: 0.000268  Lock_time: 0.000173  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524430;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:34:05
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 491  Schema: mysql  QC_hit: No
+# Query_time: 0.000336  Lock_time: 0.000184  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524445;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 491  Schema: mysql  QC_hit: No
+# Query_time: 0.000315  Lock_time: 0.000075  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524445;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:34:20
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 496  Schema: mysql  QC_hit: No
+# Query_time: 0.000193  Lock_time: 0.000123  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524460;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 496  Schema: mysql  QC_hit: No
+# Query_time: 0.000089  Lock_time: 0.000039  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524460;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:34:35
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 499  Schema: mysql  QC_hit: No
+# Query_time: 0.000118  Lock_time: 0.000060  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524475;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 499  Schema: mysql  QC_hit: No
+# Query_time: 0.000080  Lock_time: 0.000034  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524475;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:34:50
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 504  Schema: mysql  QC_hit: No
+# Query_time: 0.000131  Lock_time: 0.000061  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524490;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 504  Schema: mysql  QC_hit: No
+# Query_time: 0.000389  Lock_time: 0.000193  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524490;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:35:05
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 508  Schema: mysql  QC_hit: No
+# Query_time: 0.000266  Lock_time: 0.000140  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524505;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 508  Schema: mysql  QC_hit: No
+# Query_time: 0.000163  Lock_time: 0.000103  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524505;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:35:20
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 513  Schema: mysql  QC_hit: No
+# Query_time: 0.000190  Lock_time: 0.000090  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524520;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 513  Schema: mysql  QC_hit: No
+# Query_time: 0.000118  Lock_time: 0.000071  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524520;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:35:35
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 516  Schema: mysql  QC_hit: No
+# Query_time: 0.000271  Lock_time: 0.000133  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524535;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 516  Schema: mysql  QC_hit: No
+# Query_time: 0.000232  Lock_time: 0.000098  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524535;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:35:50
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 521  Schema: mysql  QC_hit: No
+# Query_time: 0.000157  Lock_time: 0.000095  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524550;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 521  Schema: mysql  QC_hit: No
+# Query_time: 0.000110  Lock_time: 0.000044  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524550;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:36:05
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 525  Schema: mysql  QC_hit: No
+# Query_time: 0.000245  Lock_time: 0.000115  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524565;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 525  Schema: mysql  QC_hit: No
+# Query_time: 0.000206  Lock_time: 0.000084  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524565;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:36:20
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 530  Schema: mysql  QC_hit: No
+# Query_time: 0.000413  Lock_time: 0.000189  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524580;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 530  Schema: mysql  QC_hit: No
+# Query_time: 0.000146  Lock_time: 0.000088  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524580;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:36:35
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 533  Schema: mysql  QC_hit: No
+# Query_time: 0.000271  Lock_time: 0.000149  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524595;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 533  Schema: mysql  QC_hit: No
+# Query_time: 0.000332  Lock_time: 0.000138  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524595;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:36:50
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 538  Schema: mysql  QC_hit: No
+# Query_time: 0.000190  Lock_time: 0.000093  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524610;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 538  Schema: mysql  QC_hit: No
+# Query_time: 0.000368  Lock_time: 0.000098  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524610;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:37:05
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 542  Schema: mysql  QC_hit: No
+# Query_time: 0.000249  Lock_time: 0.000082  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524625;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 542  Schema: mysql  QC_hit: No
+# Query_time: 0.000177  Lock_time: 0.000103  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524625;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:37:20
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 547  Schema: mysql  QC_hit: No
+# Query_time: 0.000226  Lock_time: 0.000115  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524640;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 547  Schema: mysql  QC_hit: No
+# Query_time: 0.000202  Lock_time: 0.000061  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524640;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:37:35
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 550  Schema: mysql  QC_hit: No
+# Query_time: 0.000136  Lock_time: 0.000065  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524655;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 550  Schema: mysql  QC_hit: No
+# Query_time: 0.000110  Lock_time: 0.000054  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524655;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:37:50
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 555  Schema: mysql  QC_hit: No
+# Query_time: 0.000210  Lock_time: 0.000128  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524670;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 555  Schema: mysql  QC_hit: No
+# Query_time: 0.000131  Lock_time: 0.000065  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524670;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:38:05
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 560  Schema: mysql  QC_hit: No
+# Query_time: 0.000266  Lock_time: 0.000128  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524685;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 560  Schema: mysql  QC_hit: No
+# Query_time: 0.000097  Lock_time: 0.000054  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524685;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:38:20
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 565  Schema: mysql  QC_hit: No
+# Query_time: 0.000281  Lock_time: 0.000153  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524700;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 565  Schema: mysql  QC_hit: No
+# Query_time: 0.000096  Lock_time: 0.000050  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524700;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:38:35
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 568  Schema: mysql  QC_hit: No
+# Query_time: 0.000166  Lock_time: 0.000091  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524715;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 568  Schema: mysql  QC_hit: No
+# Query_time: 0.000117  Lock_time: 0.000065  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524715;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:38:50
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 573  Schema: mysql  QC_hit: No
+# Query_time: 0.000459  Lock_time: 0.000329  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524730;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 573  Schema: mysql  QC_hit: No
+# Query_time: 0.000138  Lock_time: 0.000064  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524730;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:39:05
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 576  Schema: mysql  QC_hit: No
+# Query_time: 0.000165  Lock_time: 0.000077  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524745;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 576  Schema: mysql  QC_hit: No
+# Query_time: 0.000082  Lock_time: 0.000045  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524745;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:39:20
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 581  Schema: mysql  QC_hit: No
+# Query_time: 0.000142  Lock_time: 0.000079  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524760;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 581  Schema: mysql  QC_hit: No
+# Query_time: 0.000112  Lock_time: 0.000048  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524760;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:39:35
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 584  Schema: mysql  QC_hit: No
+# Query_time: 0.000253  Lock_time: 0.000130  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524775;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 584  Schema: mysql  QC_hit: No
+# Query_time: 0.000204  Lock_time: 0.000120  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524775;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:39:50
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 589  Schema: mysql  QC_hit: No
+# Query_time: 0.000145  Lock_time: 0.000065  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524790;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 589  Schema: mysql  QC_hit: No
+# Query_time: 0.000183  Lock_time: 0.000114  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524790;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:40:05
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 593  Schema: mysql  QC_hit: No
+# Query_time: 0.000198  Lock_time: 0.000092  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524805;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 593  Schema: mysql  QC_hit: No
+# Query_time: 0.000255  Lock_time: 0.000137  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524805;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:40:20
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 598  Schema: mysql  QC_hit: No
+# Query_time: 0.000166  Lock_time: 0.000089  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524820;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 598  Schema: mysql  QC_hit: No
+# Query_time: 0.000106  Lock_time: 0.000063  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524820;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:40:35
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 601  Schema: mysql  QC_hit: No
+# Query_time: 0.000208  Lock_time: 0.000105  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524835;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 601  Schema: mysql  QC_hit: No
+# Query_time: 0.000127  Lock_time: 0.000086  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524835;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:40:50
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 606  Schema: mysql  QC_hit: No
+# Query_time: 0.000155  Lock_time: 0.000084  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524850;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 606  Schema: mysql  QC_hit: No
+# Query_time: 0.000213  Lock_time: 0.000037  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524850;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:41:05
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 610  Schema: mysql  QC_hit: No
+# Query_time: 0.000163  Lock_time: 0.000097  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524865;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 610  Schema: mysql  QC_hit: No
+# Query_time: 0.000087  Lock_time: 0.000039  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524865;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:41:20
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 615  Schema: mysql  QC_hit: No
+# Query_time: 0.000233  Lock_time: 0.000126  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524880;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 615  Schema: mysql  QC_hit: No
+# Query_time: 0.000128  Lock_time: 0.000085  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524880;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:41:35
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 618  Schema: mysql  QC_hit: No
+# Query_time: 0.000435  Lock_time: 0.000250  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524895;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 618  Schema: mysql  QC_hit: No
+# Query_time: 0.000329  Lock_time: 0.000150  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524895;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:41:50
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 623  Schema: mysql  QC_hit: No
+# Query_time: 0.000192  Lock_time: 0.000095  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524910;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 623  Schema: mysql  QC_hit: No
+# Query_time: 0.000164  Lock_time: 0.000069  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524910;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:42:05
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 627  Schema: mysql  QC_hit: No
+# Query_time: 0.000378  Lock_time: 0.000229  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524925;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 627  Schema: mysql  QC_hit: No
+# Query_time: 0.000167  Lock_time: 0.000088  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524925;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:42:20
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 632  Schema: mysql  QC_hit: No
+# Query_time: 0.000191  Lock_time: 0.000105  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524940;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 632  Schema: mysql  QC_hit: No
+# Query_time: 0.000077  Lock_time: 0.000042  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524940;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:42:35
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 635  Schema: mysql  QC_hit: No
+# Query_time: 0.000189  Lock_time: 0.000108  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524955;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 635  Schema: mysql  QC_hit: No
+# Query_time: 0.000089  Lock_time: 0.000040  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524955;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:42:50
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 640  Schema: mysql  QC_hit: No
+# Query_time: 0.000195  Lock_time: 0.000108  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524970;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 640  Schema: mysql  QC_hit: No
+# Query_time: 0.000119  Lock_time: 0.000064  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524970;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:43:05
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 645  Schema: mysql  QC_hit: No
+# Query_time: 0.000222  Lock_time: 0.000116  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598524985;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 645  Schema: mysql  QC_hit: No
+# Query_time: 0.000208  Lock_time: 0.000112  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598524985;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:43:20
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 650  Schema: mysql  QC_hit: No
+# Query_time: 0.000209  Lock_time: 0.000104  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598525000;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 650  Schema: mysql  QC_hit: No
+# Query_time: 0.000303  Lock_time: 0.000155  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598525000;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:43:35
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 653  Schema: mysql  QC_hit: No
+# Query_time: 0.000276  Lock_time: 0.000137  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598525015;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 653  Schema: mysql  QC_hit: No
+# Query_time: 0.000257  Lock_time: 0.000098  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598525015;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:43:50
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 658  Schema: mysql  QC_hit: No
+# Query_time: 0.000306  Lock_time: 0.000179  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598525030;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 658  Schema: mysql  QC_hit: No
+# Query_time: 0.000224  Lock_time: 0.000107  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598525030;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:44:05
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 663  Schema: mysql  QC_hit: No
+# Query_time: 0.000191  Lock_time: 0.000100  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598525045;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 663  Schema: mysql  QC_hit: No
+# Query_time: 0.000078  Lock_time: 0.000041  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598525045;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# Time: 200827 10:44:20
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 668  Schema: mysql  QC_hit: No
+# Query_time: 0.000169  Lock_time: 0.000087  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598525060;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 668  Schema: mysql  QC_hit: No
+# Query_time: 0.000133  Lock_time: 0.000054  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598525060;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:44:35
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 671  Schema: mysql  QC_hit: No
+# Query_time: 0.000210  Lock_time: 0.000122  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598525075;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 671  Schema: mysql  QC_hit: No
+# Query_time: 0.000107  Lock_time: 0.000056  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598525075;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# Time: 200827 10:44:50
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 676  Schema: mysql  QC_hit: No
+# Query_time: 0.000356  Lock_time: 0.000167  Rows_sent: 40  Rows_examined: 40
+# Rows_affected: 0  Bytes_sent: 1367
+SET timestamp=1598525090;
+SELECT
+                  page_size, buffer_pool_instance, pages_used, pages_free, relocation_ops, relocation_time
+                  FROM information_schema.innodb_cmpmem;
+# User@Host: root[root] @  [172.25.244.171]
+# Thread_id: 676  Schema: mysql  QC_hit: No
+# Query_time: 0.000344  Lock_time: 0.000178  Rows_sent: 5  Rows_examined: 5
+# Rows_affected: 0  Bytes_sent: 659
+SET timestamp=1598525090;
+SELECT
+		  page_size, compress_ops, compress_ops_ok, compress_time, uncompress_ops, uncompress_time
+		  FROM information_schema.innodb_cmp;

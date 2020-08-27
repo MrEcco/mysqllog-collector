@@ -1,0 +1,56 @@
+version: '3.7'
+services:
+  fluentd:
+    container_name: fluentd
+    image: mrecco/fluentd:v1.3.3
+    entrypoint:
+    - '/bin/sh'
+    - '-c'
+    - |
+      cp -r /conf/*.conf /fluentd/etc/
+      sleep 3
+      /conf/pre-entrypoint.sh
+      exec tini -- /fluentd/entrypoint.sh
+    environment:
+      FLUENT_GRAYLOG_HOST: "graylog.example.com"
+      FLUENT_GRAYLOG_PORT: "12201"
+      FLUENT_GRAYLOG_PROTOCOL: "tcp"
+      SPECIAL_TAG: "some_special_tag"
+    links:
+    - mysqllog-collector:mysqllog-collector # Start it at first
+    stop_grace_period: 1s
+    volumes:
+    - "./volumes/fluentd:/conf:ro"
+    - "./volumes/logrotate:/etc/logrotate:ro"
+    - "/run/log/journal:/var/log/journal"
+    - "/var/lib/docker/containers:/var/lib/docker/containers:ro"
+    - "/var/log:/var/log"
+    restart: on-failure
+
+  mysqllog-collector:
+    image: mrecco/mysqllog-collector:v1.0.0
+    command:
+    - '-general'
+    - '/mnt/mysqllog/general.log'
+    - '-slowquery'
+    - '/mnt/mysqllog/slowquery.log'
+    stop_grace_period: 1s
+    volumes:
+    - "/var/log/postgresql:/var/log/postgresql:ro"
+    - "/opt/mysqllog:/opt/mysqllog:ro"
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "64M" # 1G logs, for less than 2 hours of cold load
+        max-file: "16"
+    restart: on-failure
+
+  mysqllog-rotation:
+    image: mrecco/logrotate:v1.0.0
+    links:
+    - mysqllog-collector:mysqllog-collector # Start it at first
+    stop_grace_period: 1s
+    volumes:
+    - "./volumes/logrotate:/etc/jobber:ro"
+    - "/opt/mysqllog:/opt/mysqllog"
+    restart: on-failure
